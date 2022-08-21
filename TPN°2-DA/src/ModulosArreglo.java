@@ -50,4 +50,9 @@ public class ModulosArreglo {
             System.out.print(Arreglo[i]);
         }
     } 
+    public static void LimpiarArray(String Array[]){
+        for(int i=0;i<Array.length;i++){
+            Array[i]="";
+        }
+    }
 }
