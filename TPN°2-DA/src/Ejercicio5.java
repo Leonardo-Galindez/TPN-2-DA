@@ -4,8 +4,7 @@ public class Ejercicio5 {
         Scanner sc=new Scanner(System.in);
         int cantArreglo,num;
         float promedioArray;
-        System.out.println("Ingrese cantidad de posiciones del Arreglo");
-        cantArreglo=sc.nextInt();
+        cantArreglo=ModulosArreglo.DefCantPosArray();
         int Enteros[]=new int[cantArreglo];
         for(int i=0;i<Enteros.length;i++){
             System.out.println("Ingrese numeros para el arreglo");

@@ -7,8 +7,7 @@ public class Ejercicio6 {
         cantLetras=0;
         char carac;
         carac=' ';
-        System.out.println("Ingrese cantidad de posiciones del arreglo");
-        cant=sc.nextInt();
+        cant=ModulosArreglo.DefCantPosArray();
         char Letras[]=new char[cant];
         for(i=0;i<Letras.length;i++){
             System.out.println("Ingrese letras");

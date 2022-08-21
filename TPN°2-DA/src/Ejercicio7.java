@@ -4,10 +4,9 @@ public class Ejercicio7 {
         int cantPos;
         String frase,fraseInversa;
         Scanner sc= new Scanner(System.in);
-        System.out.println("Ingrese cantidad de posiciones ");
-        cantPos=sc.nextInt();
+        cantPos=ModulosArreglo.DefCantPosArray();
         String CadenaArray[]=new String[cantPos];   
-        CadenaArray=CargaArreglo(cantPos);
+        CadenaArray=ModulosArreglo.CargaArregloString(cantPos);
         for(int i=0;i<CadenaArray.length;i++){
             System.out.println(CadenaArray[i]);
         }
@@ -17,18 +16,6 @@ public class Ejercicio7 {
         fraseInversa=GenerarCadenaInversa(CadenaArray);
         System.out.println(fraseInversa);
     }
-
-    public static String[] CargaArreglo(int cant){
-        String CadenaArray [] = new String[cant];
-        String palabra;
-        Scanner sc= new Scanner(System.in);
-        for(int i=0;i<CadenaArray.length;i++){
-            System.out.println("Ingrese palabra");
-            palabra=sc.next();
-            CadenaArray[i]=palabra;
-        }
-        return CadenaArray;
-    }   
 
     public static String GenerarCadena(String CadenaArray[]){
         String cadena;
