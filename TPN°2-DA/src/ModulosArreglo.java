@@ -40,7 +40,7 @@ public class ModulosArreglo {
     public static int DefCantPosArray(){
         int cantPos;
         Scanner sc= new Scanner(System.in);
-        System.out.println("Ingrese cantidad de posiciones ");
+        System.out.println("Ingrese cantidad de posiciones del Arreglo ");
         cantPos=sc.nextInt();
         return cantPos;
     } 
