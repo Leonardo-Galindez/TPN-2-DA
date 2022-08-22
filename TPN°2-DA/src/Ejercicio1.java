@@ -6,13 +6,11 @@ public class Ejercicio1 {
         char carac;
         char Arreglo[] = new char[5];
         LimpiarArray(Arreglo);
-
+        System.out.println("Ingrese caracter");
         for(int i=0;i<Arreglo.length;i++){
-            System.out.println("Ingrese caracter");
             carac=sc.next().charAt(0);
             Arreglo[i]=carac;
         }
-
         System.out.println("Desea ver los caracteres en el orden ingresado'1' ò '2' invertido");
         ingreso=sc.nextInt();
         
@@ -22,7 +20,6 @@ public class Ejercicio1 {
             MostrarInvertir(Arreglo);
         } 
     }
-
     public static void MostrarInvertir(char Array[]){
         int j;
         j=Array.length;
