@@ -55,4 +55,10 @@ public class ModulosArreglo {
             Array[i]="";
         }
     }
+    public static void MostrarArreglo(String Arreglo[],int cant){
+        for(int i=0;i<Arreglo.length;i++){
+            System.out.print(Arreglo[i]);
+        }
+    }
 }
+
