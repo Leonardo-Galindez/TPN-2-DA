@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+//sc.next();para no tener errores cuando lea un un intero o real y luego un cadena de texto nextline
 public class Ejercicio18 {
     public static void main(String[] args) {
         int op,cant,posEmpleado,posSueldo;
